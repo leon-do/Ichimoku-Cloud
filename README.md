@@ -11,7 +11,8 @@
     let chikou = lagger
 
 
-// >>
+//
+>>
 
 if ( current > lastBuy ){
     // sell
