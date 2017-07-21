@@ -50,5 +50,3 @@
     if ( current * 1.05 <= kijun && current * 0.95 >= kijun && tenkan < kijun){
         // BUY
     }
-
-//
