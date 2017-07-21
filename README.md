@@ -11,7 +11,7 @@
     let chikou = lagger
 
 
-//
+// >>
 
 if ( current > lastBuy ){
     // sell
@@ -36,7 +36,16 @@ if ( tenkan < kijun ){
     // bear
 }
 
-// if kijun value is +/-2% of the current value
-if ( current * 1.05 <= kijun && current * 0.95 >= kijun){
-    //
+if (tenkan * 1.03 <= kijun && tenkan * 0.97 >= kijun){
+    // it's going to cross! Shit might happen
+}
+
+// if kijun value is +/-2% of the current value         && it's a it's going down
+if ( current * 1.05 <= kijun && current * 0.95 >= kijun && tenkan < kijun){
+    // SELL
+}
+
+// if kijun value is +/-2% of the current value         && it's a it's going down
+if ( current * 1.05 <= kijun && current * 0.95 >= kijun && tenkan < kijun){
+    // BUY
 }
