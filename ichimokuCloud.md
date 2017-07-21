@@ -13,6 +13,13 @@
 
 //
 
+if ( current > lastBuy ){
+    // sell
+}
+
+if ( current < lastSell ){
+    // buy
+}
 
 if (chikou > tekan &&
     chikou > kijun &&
@@ -29,6 +36,7 @@ if ( tenkan < kijun ){
     // bear
 }
 
-if ( current * 1.02 <= kijun && current * 0.8 >= kijun){
-    
+// if kijun value is +/-2% of the current value
+if ( current * 1.05 <= kijun && current * 0.95 >= kijun){
+    //
 }
