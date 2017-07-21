@@ -1,4 +1,4 @@
-//
+/*
 
     let tenkan = fast
     let kijun = slow
@@ -11,8 +11,8 @@
     let chikou = lagger
 
 
-//
-//
+*/
+
 
     if ( current > lastBuy ){
         // sell
